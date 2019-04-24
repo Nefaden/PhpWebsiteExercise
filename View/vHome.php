@@ -14,7 +14,7 @@ include ("./Includes/Header.php");
         </div>
         <br />
         <br />
-        
+
         <div class="container">            
             <p>Welcome here. I'm Yann Durand, AKA Nefaden, i'm an IoT Developper in 4CAD Group. <br/>
                 I've made this website to help a friend to improve her skill in PHP for her graduate and I think it can be usefull to grant it
@@ -27,14 +27,59 @@ include ("./Includes/Header.php");
                 If you're stuck, asking help or just asking further information, you can message me on Discord : Nefaden#0674. I'll certainly add
                 a Discord's server if they're to many people :p
             </p>
+            <br />
+            <br />            
         </div>
-        <br />
-        <br />
-        
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>            
-    </body>
-    <?php
-    include ("./Includes/Footer.php");
-    ?>
+
+        <div class="container">
+            <div class="col s12 m8 offset-m1 xl7 offset-xl1"> 
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card sticky-action">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="materialize/img/yann.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="card sticky-action">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="materialize/img/background.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-action">
+                                <p><a href="#">This is a link</a>
+                                    <a href="#">This is a link</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>            
+</body>
+<?php
+include ("./Includes/Footer.php");
+?>
 </html>

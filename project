@@ -1,0 +1,25 @@
+Project PHP course website
+
+Projet d'un site web / portail vers des cours et exercices pour du PHP (voir d'autre langages à l'avenir)
+
+Le but de ce projet est de créer un site web publique aux gens souhaitant s'exercer à un langage donné
+Le site sera donc une sorte de portail avec une multitude de cours et d'exos liés à ce dernier de façon simple et court
+In fine, il sera utile à ceux qui seront que légèrement concernés par le développement (ex: WiS)
+L'utilisation du site sera, de la consultation en ligne avec (si possible) suivis de progression, suivis par un mentor perso etc
+Et en second temps, un repository github (https://github.com/Nefaden/PhpWebsiteExercise.git) publique pour que les élèves le copy en local
+et modifient les codes sources afin de pratiquer les exercices proposés
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+###### CONSIGNES ######
+
+1# Le site web sera hébergé sur OVH
+2# Base de données confidentielle (MangoDB ou autre) afin d'avoir l'administration du site
+3# Possibilité de créer un compte user pour suivre sa progression sur les exercice suivant le cours (?)
+    3.1# Suivis d'un "mentor" pour un ou plusieurs élèves
+4# Un cours est représenté sur la page vHome.php sous la forme d'une cards 
+    4.1# Une card (materialize) est une carte qui peut révéler un texte supplémentaire (souvent une explication brève du cours + exos)
+         avec 2 option sous forme de lien menant vers le cours et vers les exos liés
+    4.2# Un cours se doit d'être court simple et concis  
+    4.3# La page des exos est inutile en soit sur le site car les élèves modifieront le code de cette page via le code source repo github
+5# Les élèves seront insités à utiliser PhpMyAdmin pour sa simplicité d'installation et de configuration (osef de la sécu pour ces éxos)
